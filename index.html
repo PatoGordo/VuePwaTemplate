@@ -3,9 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>VueRouter CDN Template with Less</title>
+    <title>Vue Template with Less And PWA</title>
 
 
+		<!-- Service Worker verification and manifest json -->
+		<meta name="theme-color" content="#35495e"/>
+    <link rel="manifest" href="manifest.json">
+		<script>
+			//if browser support service worker
+			if('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('service-worker.js');
+			}
+			function getMobileOperatingSystem() {
+				var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+				if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) ){
+					return 'iOS';
+				}else if(userAgent.match( /Android/i )){
+					return 'Android';
+				}else{
+					return 'unknown';
+				}
+			}
+		</script>
+
+
+		<!-- Icons -->
+		<script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+		
+		
 		<!-- Less Styles -->
 		<link rel="stylesheet/less" type="text/css" href="Src/Styles/style.less" />
 
@@ -29,12 +56,15 @@
 
 		<!-- Pages Components -->
 		<script src="Src/Pages/home.vue.js"></script>
-		<script src="Src/Pages/about.vue.js"></script>
 		<script src="Src/Pages/404.vue.js"></script>
 
 
 		<!-- Worker Components -->
     <script src="Src/router.js"></script><!-- Set your routes here -->
     <script src="Src/app.vue.js"></script><!-- Components Render -->
+
+
+		<!-- Pwa Worker -->
+		<script src="Src/scripts.js"></script>
   </body>
 </html>
