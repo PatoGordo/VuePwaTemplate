@@ -10,8 +10,8 @@ self.addEventListener('install', event => {
         'Dist/vue.js',
 
         // Scripts & Styles
-        'Src/style.css',
-        'Src/script.js',
+        'Src/Styles/style.css',
+        'Src/app.js',
 
         //Images
         'Images/vue.png',
