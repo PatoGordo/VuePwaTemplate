@@ -2,6 +2,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](#)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Run on repl.it](https://repl.it/badge/github/PatoGordo/VuePwaTemplate)](https://repl.it/github/PatoGordo/VuePwaTemplate}&ref=button)
 
 > This project was made to work with Vue cdn and Pwa
 
@@ -16,8 +17,8 @@
 
 ---
 
-## Demo image
-<img src="https://raw.githubusercontent.com/PatoGordo/PatoGordo/main/Images/Vue%20Pwa%20Exemple.png" width="340" height="620" />
+### Demo image
+<img src="https://raw.githubusercontent.com/PatoGordo/PatoGordo/main/Images/Vue%20Pwa%20Exemple.png" width="320" height="600" />
 
 ## Features :zap:
 [![Deployed in Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rocketlaunches.ga)
