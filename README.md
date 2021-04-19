@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](#)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![Run on repl.it](https://repl.it/badge/github/PatoGordo/VuePwaTemplate)](https://repl.it/github/PatoGordo/VuePwaTemplate}&ref=button)
+[![Run on repl.it](https://repl.it/badge/github/PatoGordo/VuePwaTemplate)](https://replit.com/@patogordo/VuePwaTemplate)
 
 > This project was made to work with Vue cdn and Pwa
 
